@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+/*
+Paleta de Cores
+Branco: #FFFFFF
+Vermelho: #FF0000
+Vinho: #770000
+Verde: #009370
+*/
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
