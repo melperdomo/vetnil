@@ -2,16 +2,86 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
 
-/*
-Paleta de Cores
-Branco: #FFFFFF
-Vermelho: #FF0000
-Vinho: #770000
-Verde: #009370
-*/
+:root {
+    --cor1: #FFFFFF;
+    --cor2: #FF0000;
+    --cor3: #770000;
+    --cor4: #009370;
+    --cor5: #FFCB2E;
+}
+
 
 * {
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
     font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-content {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background: linear-gradient(var(--cor2), var(--cor3));
+    color: var(--cor1);  
+}
+
+.menu-left-header {
+    margin-left: 10%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: 400;  
+}
+
+.menu-central-header {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu-right-header {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.saudacao-usuario {
+    font-weight: 400;
+}
+
+.saudacao-id {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.menu-item-logo {
+    width: 55%;
+}
+
+.saudacao-id {
+    color: var(--cor1);
+    font-weight: 300;
+}
+
+.main-banner-conteiner {
+    width: 100%;
+    height: 800px;
+    background-image: url(/imagens/imagens-home/2021-banner-vetnil.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ferradura-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+.ferradura-esquerda {
+    width: %;
+    align-self: center;   
 }
