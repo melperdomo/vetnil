@@ -78,9 +78,13 @@
 .ferradura-conteiner {
     display: flex;
     justify-content: space-between;
-    align-content: flex-start;
 }
 
 .ferradura-esquerda {
-    align-self: center; 
+    width: 108px;
+    margin-top: 280px;
+}
+
+.ferradura-direita {
+    width: 108px;
 }
